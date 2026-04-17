@@ -1,0 +1,9 @@
+{
+	"name": "retailADFdon",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c0da832e-a4d3-4031-b2e5-542d3638b425",
+		"tenantId": "daf5ba2f-f316-4d35-90c9-f6e61ac95885"
+	}
+}
