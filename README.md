@@ -37,12 +37,14 @@ Strategic Objective:
 To transform raw, fragmented retail data into a high-performance Gold Layer that serves as the **Single Source of Truth.** This platform enables the business to move from reactive reporting to proactive, data-driven decision-making.
 1. Engineering Excellence: The Foundation
 I have implemented a modern Medallion Architecture using Azure Databricks and Unity Catalog to ensure data integrity:
-•	Security & Governance: By moving away from legacy mounts to Service Principal-based External Locations, we have secured our sensitive retail data while maintaining full auditability.
+• Security & Governance: By moving away from legacy mounts to Service Principal-based External Locations, we have secured our sensitive retail data while maintaining full auditability.
 •	Automated Pipeline: Raw data (Bronze) is automatically cleaned and standardized (Silver) before being enriched for business use (Gold). This eliminates manual preparation and the risk of human error.
+
 2. Analytical Impact: Business Value
 The Gold Layer is now optimized to provide **ready-to-use** insights that drive revenue:
 •	Operational Precision: With data enriched with Customer Full Names, Product Categories, and Store Locations, stakeholders can now see not just how much was sold, but who bought it and where the highest growth is happening.
 •	Financial Readiness: Data is rounded to two decimal points and grouped by Time Dimensions (Month/Year), making it instantly compatible with financial audits and Power BI dashboards.
+
 3. Strategic Conclusion
 This platform reduces the **Time-to-Insight** from days to seconds. By providing a single, enriched table, we have enabled the business to identify Hero Products and Underperforming Stores in real-time, ensuring we can pivot our strategy faster than the competition.
 
