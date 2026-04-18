@@ -8,7 +8,8 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
 > End-to-end data pipeline built on Azure and Databricks using the **Medallion Architecture** (Bronze → Silver → Gold → Power BI).
-**Architecture**
+
+# **Architecture**
 <img width="1004" height="913" alt="architecturepng" src="https://github.com/user-attachments/assets/c4f1e675-2288-4e5f-be97-e5a60d00bfcb" />
 
 ---
@@ -18,24 +19,6 @@
 End-to-end data pipeline built on Azure and Databricks using the Medallion Architecture (Bronze → Silver → Gold). This project transforms raw, fragmented retail data into a high performance **Gold Layer** that serves as the Single Source of Truth, enabling the business to move from reactive reporting to proactive, data driven decision-making.
 
 ---
-
-## 🏗️ Architecture
-
-```
-┌─────────────────┐     ┌──────────────────┐     ┌────────────────────────────────┐
-│   Data Sources   │────▶│  Azure ADLS Gen2 │────▶│       Azure Databricks         │
-│                  │     │                  │     │                                │
-│ • Azure SQL      │     │  /bronze         │     │  Bronze → Silver → Gold        │
-│ • GitHub (HTTP)  │     │  /silver         │     │  PySpark Transformations       │
-│                  │     │  /gold           │     │                                │
-└─────────────────┘     └──────────────────┘     └───────────────┬────────────────┘
-                                                                  │
-                                                    ┌─────────────▼──────────────┐
-                                                    │         Power BI           │
-                                                    │  Product Performance       │
-                                                    │       Dashboard            │
-                                                    └────────────────────────────┘
-```
 
 ---
 
