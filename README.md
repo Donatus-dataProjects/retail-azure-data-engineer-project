@@ -269,4 +269,4 @@ This platform reduces the **Time-to-Insight** from days to seconds. By providing
 
 ## 📄 License
 
-MIT License — feel free to use and adapt this project.
+Feel free to use and adapt this project.
